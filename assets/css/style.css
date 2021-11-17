@@ -100,6 +100,7 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+
 hr {
   margin: 4.5rem 0;
   color: rgba(164, 174, 198, 0.2);
@@ -38627,11 +38628,20 @@ button.hamburger.animate.active:after {
 html,
 body {
   height: 100%;
+  scroll-behavior: smooth;
 }
 
 body {
   display: flex;
   flex-direction: column;
+}
+
+#myVideo {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .content-wrapper,
