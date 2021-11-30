@@ -687,7 +687,6 @@ section video {
   transform: translateX(-50%) translateY(-50%);
 }
 
-
 section .overlay {
   position: absolute;
   top: 0;
