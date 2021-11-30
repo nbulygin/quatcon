@@ -5754,7 +5754,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .owl-carousel .owl-item img {
   display: block;
-  width: 100%
+  max-width: 300%
 }
 
 .owl-carousel .owl-dots.disabled,
